@@ -13,7 +13,7 @@ repositories {
 sqldelight {
     databases {
         create("AppDatabase") {
-            packageName.set("com.jetbrains.handson.kmm.shared.cache")
+            packageName.set("com.zverolands.moneyoverseer.shared.cache")
         }
     }
 }
@@ -38,17 +38,13 @@ kotlin {
         }
     }
 
-    val coroutinesVersion = "1.7.3"
-    val ktorVersion = "2.3.5"
-    val dateTimeVersion = "0.4.1"
-
     sourceSets {
         commonMain.dependencies {
-            implementation("org.jetbrains.kotlinx:kotlinx-coroutines-core:$coroutinesVersion")
-            implementation("io.ktor:ktor-client-core:$ktorVersion")
-            implementation("io.ktor:ktor-client-content-negotiation:$ktorVersion")
-            implementation("io.ktor:ktor-serialization-kotlinx-json:$ktorVersion")
-            implementation("org.jetbrains.kotlinx:kotlinx-datetime:$dateTimeVersion")
+            implementation(libs.kotlinx.coroutines.core)
+            implementation(libs.ktor.client.core)
+            implementation(libs.ktor.client.content.negotiation)
+            implementation(libs.ktor.serialization.kotlinx.json)
+            implementation(libs.kotlinx.datetime)
 //            implementation("app.cash.sqldelight:sqlite-driver:2.0.1")
         }
         commonTest.dependencies {
@@ -56,13 +52,13 @@ kotlin {
         }
 
         androidMain.dependencies {
-            implementation("io.ktor:ktor-client-android:$ktorVersion")
-            implementation("app.cash.sqldelight:android-driver:2.0.1")
+            implementation(libs.ktor.client.android)
+            implementation(libs.android.driver)
         }
 
         iosMain.dependencies {
-            implementation("io.ktor:ktor-client-darwin:$ktorVersion")
-            implementation("app.cash.sqldelight:native-driver:2.0.1")
+            implementation(libs.ktor.client.darwin)
+            implementation(libs.native.driver)
         }
     }
 }
