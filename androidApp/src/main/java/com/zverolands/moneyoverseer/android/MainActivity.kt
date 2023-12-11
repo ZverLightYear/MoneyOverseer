@@ -16,9 +16,9 @@ import androidx.core.view.isVisible
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 import androidx.swiperefreshlayout.widget.SwipeRefreshLayout
-import com.jetbrains.handson.kmm.shared.SpaceXSDK
-import com.jetbrains.handson.kmm.shared.cache.DatabaseDriverFactory
-import com.jetbrains.handson.kmm.shared.entity.RocketLaunch
+import com.zverolands.moneyoverseer.shared.SpaceXSDK
+import com.zverolands.moneyoverseer.shared.cache.DatabaseDriverFactory
+import com.zverolands.moneyoverseer.shared.entity.RocketLaunch
 import kotlinx.coroutines.MainScope
 import kotlinx.coroutines.cancel
 import kotlinx.coroutines.launch

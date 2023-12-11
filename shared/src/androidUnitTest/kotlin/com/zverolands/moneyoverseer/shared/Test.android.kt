@@ -1,4 +1,4 @@
-package com.zverolands.moneyoverseer
+package com.zverolands.moneyoverseer.shared
 
 import org.junit.Assert.assertTrue
 import org.junit.Test

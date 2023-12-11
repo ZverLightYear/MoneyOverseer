@@ -1,4 +1,4 @@
-package com.zverolands.moneyoverseer
+package com.zverolands.moneyoverseer.shared
 
 interface Platform {
     val name: String

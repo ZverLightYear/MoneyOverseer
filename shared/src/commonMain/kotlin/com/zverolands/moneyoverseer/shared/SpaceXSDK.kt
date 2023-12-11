@@ -1,9 +1,9 @@
-package com.jetbrains.handson.kmm.shared
+package com.zverolands.moneyoverseer.shared
 
-import com.jetbrains.handson.kmm.shared.cache.Database
-import com.jetbrains.handson.kmm.shared.cache.DatabaseDriverFactory
-import com.jetbrains.handson.kmm.shared.entity.RocketLaunch
-import com.jetbrains.handson.kmm.shared.network.SpaceXApi
+import com.zverolands.moneyoverseer.shared.cache.Database
+import com.zverolands.moneyoverseer.shared.cache.DatabaseDriverFactory
+import com.zverolands.moneyoverseer.shared.entity.RocketLaunch
+import com.zverolands.moneyoverseer.shared.network.SpaceXApi
 
 
 class SpaceXSDK (databaseDriverFactory: DatabaseDriverFactory) {

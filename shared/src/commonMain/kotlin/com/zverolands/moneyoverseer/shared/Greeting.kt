@@ -1,4 +1,4 @@
-package com.zverolands.moneyoverseer
+package com.zverolands.moneyoverseer.shared
 
 class Greeting {
     private val platform: Platform = getPlatform()
