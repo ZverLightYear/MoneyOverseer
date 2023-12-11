@@ -1,4 +1,4 @@
-package com.zverolands.moneyoverseer
+package com.zverolands.moneyoverseer.shared
 
 import kotlin.test.Test
 import kotlin.test.assertTrue

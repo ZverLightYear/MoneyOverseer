@@ -1,6 +1,6 @@
-package com.jetbrains.handson.kmm.shared.network
+package com.zverolands.moneyoverseer.shared.network
 
-import com.jetbrains.handson.kmm.shared.entity.RocketLaunch
+import com.zverolands.moneyoverseer.shared.entity.RocketLaunch
 import io.ktor.client.HttpClient
 import io.ktor.client.call.body
 import io.ktor.client.plugins.contentnegotiation.ContentNegotiation
